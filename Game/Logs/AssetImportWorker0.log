@@ -15,7 +15,7 @@ C:/Users/AsusPC/Desktop/MyGames/Demo/WEB/3D/FPR-Survival-Game/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54591
+55934
 Successfully changed project path to: C:/Users/AsusPC/Desktop/MyGames/Demo/WEB/3D/FPR-Survival-Game/Game
 C:/Users/AsusPC/Desktop/MyGames/Demo/WEB/3D/FPR-Survival-Game/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/AsusPC/Desktop/MyGames/Demo/WEB/3D/FPR-Survival-Game/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 463.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 112.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,81 +63,81 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.120938 seconds.
+Registered in 0.015664 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 112.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.464 seconds
+- Completed reload, in  0.979 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2465ms)
-		BeginReloadAssembly (1259ms)
+	ReloadAssembly (980ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (920ms)
-			LoadAssemblies (1325ms)
+		EndReloadAssembly (683ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
+			SetupTypeCache (157ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (456ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (411ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (90ms)
+				InitializePlatformSupportModulesInManaged (84ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
+				RefreshPlugins (118ms)
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (144ms)
-				ProcessInitializeOnLoadMethodAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.640243 seconds.
+Registered in 0.009874 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\AsusPC\Desktop\MyGames\Demo\WEB\3D\FPR-Survival-Game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\AsusPC\Desktop\MyGames\Demo\WEB\3D\FPR-Survival-Game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 16.738 seconds
+- Completed reload, in  1.677 seconds
 Domain Reload Profiling:
-	ReloadAssembly (16739ms)
-		BeginReloadAssembly (341ms)
+	ReloadAssembly (1678ms)
+		BeginReloadAssembly (290ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (182ms)
-		EndReloadAssembly (16217ms)
-			LoadAssemblies (15055ms)
+			CreateAndSetChildDomain (146ms)
+		EndReloadAssembly (1213ms)
+			LoadAssemblies (124ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (404ms)
+			SetupTypeCache (401ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (640ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (562ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (166ms)
-				ProcessInitializeOnLoadAttributes (395ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,12 +146,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (55.8 KB). Loaded Objects now: 3845.
-Memory consumption went from 119.2 MB to 119.2 MB.
-Total: 4.726300 ms (FindLiveObjects: 0.347300 ms CreateObjectMapping: 0.244500 ms MarkObjects: 4.045100 ms  DeleteObjects: 0.088300 ms)
+Unloading 25 unused Assets / (55.5 KB). Loaded Objects now: 3863.
+Memory consumption went from 125.8 MB to 125.7 MB.
+Total: 4.278000 ms (FindLiveObjects: 0.353500 ms CreateObjectMapping: 0.238400 ms MarkObjects: 3.596400 ms  DeleteObjects: 0.088300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,19 +166,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 17341.049560 seconds.
-  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Prefabs
-  artifactKey: Guid(62a68fa5940d9574d87138bddf005fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Prefabs using Guid(62a68fa5940d9574d87138bddf005fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fb492d48d989b1a888292c88e49cbb') in 0.354100 seconds 
+  Time since last request: 35635.914186 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Test Material.mat
+  artifactKey: Guid(f2fef8828f6d56c45bf3cd96c3130845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Test Material.mat using Guid(f2fef8828f6d56c45bf3cd96c3130845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7310f978616ba4125b1005c7eb4d8d') in 0.390997 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.047017 seconds.
-  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Prefabs/Game Ground.prefab
-  artifactKey: Guid(1aa7bf25b446c4baa8e0af352f470d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Prefabs/Game Ground.prefab using Guid(1aa7bf25b446c4baa8e0af352f470d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498894e3c82524058a68bf55515b9b6f') in 4.112494 seconds 
+  Time since last request: 630.676869 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Prefabs/Player
+  artifactKey: Guid(eba27a0b12b59e44f83698417498396d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Prefabs/Player using Guid(eba27a0b12b59e44f83698417498396d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f7c4cc6bbca566b514d396c36d4ff6') in 0.002774 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 97.662112 seconds.
-  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Prefabs/Game Ground.prefab
-  artifactKey: Guid(1aa7bf25b446c4baa8e0af352f470d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Prefabs/Game Ground.prefab using Guid(1aa7bf25b446c4baa8e0af352f470d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbda71dd66dab324095539cfc5f48fa') in 0.150577 seconds 
+  Time since last request: 17.251257 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(7abb94b613c41734e9edf0c640f62a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Prefabs/Player/Player.prefab using Guid(7abb94b613c41734e9edf0c640f62a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c255c7642cb3b0e14a1543100861b670') in 0.117895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 335.082489 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Models
+  artifactKey: Guid(13871217a4085044db4971b1edee62f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Models using Guid(13871217a4085044db4971b1edee62f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40521ea952e26d9fcd41099081ce9b55') in 0.051690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 133.772908 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Objects
+  artifactKey: Guid(fd334a0e05314448a896913ed6db72e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Objects using Guid(fd334a0e05314448a896913ed6db72e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7ebc42f76bb9ba36d0eb4412d67966') in 0.045970 seconds 

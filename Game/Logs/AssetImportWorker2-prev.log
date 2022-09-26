@@ -15,7 +15,7 @@ C:/Users/AsusPC/Desktop/MyGames/Demo/WEB/3D/FPR-Survival-Game/Game
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-57321
+50454
 Successfully changed project path to: C:/Users/AsusPC/Desktop/MyGames/Demo/WEB/3D/FPR-Survival-Game/Game
 C:/Users/AsusPC/Desktop/MyGames/Demo/WEB/3D/FPR-Survival-Game/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/AsusPC/Desktop/MyGames/Demo/WEB/3D/FPR-Survival-Game/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 82.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 112.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,47 +63,506 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009182 seconds.
+Registered in 0.014421 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 82.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.718 seconds
+- Completed reload, in  1.085 seconds
 Domain Reload Profiling:
-	ReloadAssembly (718ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (1086ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (474ms)
-			LoadAssemblies (75ms)
+		EndReloadAssembly (801ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (119ms)
+			SetupTypeCache (175ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (277ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (481ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (59ms)
+				InitializePlatformSupportModulesInManaged (94ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (94ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006157 seconds.
-Android Extension - Scanning For ADB Devices 4421 ms
+Registered in 0.011078 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\AsusPC\Desktop\MyGames\Demo\WEB\3D\FPR-Survival-Game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\AsusPC\Desktop\MyGames\Demo\WEB\3D\FPR-Survival-Game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.698 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1699ms)
+		BeginReloadAssembly (315ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (177ms)
+		EndReloadAssembly (1202ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (546ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (55.5 KB). Loaded Objects now: 3859.
+Memory consumption went from 125.3 MB to 125.2 MB.
+Total: 4.694500 ms (FindLiveObjects: 0.380500 ms CreateObjectMapping: 0.256400 ms MarkObjects: 3.962800 ms  DeleteObjects: 0.093500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28963.219428 seconds.
+  path: Assets/FPS-Survival-Assets
+  artifactKey: Guid(a99fa6e8e030a13498021d4eca65842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets using Guid(a99fa6e8e030a13498021d4eca65842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92d4f6fd92049ae80d83d6103428ff1') in 0.036706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.410975 seconds.
+  path: Assets/_TerrainAutoUpgrade
+  artifactKey: Guid(3b27371e756071c40924560d1e6d2044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade using Guid(3b27371e756071c40924560d1e6d2044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053f625838189d5b18eb7933d443dd0b') in 0.021372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014240 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Cliff_Layered RockCliff_NRM5e877bc2d7bcc3fc.terrainlayer
+  artifactKey: Guid(1832042ebb069d64294fcb93874957f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Cliff_Layered RockCliff_NRM5e877bc2d7bcc3fc.terrainlayer using Guid(1832042ebb069d64294fcb93874957f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c4c44cc808a0513ac4024b7683c267') in 0.197356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.774273 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials
+  artifactKey: Guid(792f4d2b131f6274692c9bcac844eea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials using Guid(792f4d2b131f6274692c9bcac844eea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804e4336eb901d2a9dda3e491d612b76') in 0.061540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.878993 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons
+  artifactKey: Guid(35c4fe0d0213a3b458744bcdb707f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons using Guid(35c4fe0d0213a3b458744bcdb707f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a896cfe2091869a056d2aa0f22d15bf') in 0.019681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.845163 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person
+  artifactKey: Guid(a18f1ce3867ce4e429139d43168b4d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person using Guid(a18f1ce3867ce4e429139d43168b4d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce14c0d548e4ae1018b7588688875330') in 0.006816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021612 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Arms.mat
+  artifactKey: Guid(f0dc5b2c180f556429090a6409109062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Arms.mat using Guid(f0dc5b2c180f556429090a6409109062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c926e1eb1ac8030cbd2b34c7d6ec63') in 1.320750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Hunting Rifle.mat
+  artifactKey: Guid(6bfb1a404763afd4a82c9a00e3426f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Hunting Rifle.mat using Guid(6bfb1a404763afd4a82c9a00e3426f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389a66bf70e09f93f1cd9d744db6daaa') in 0.417379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Wooden Spear.mat
+  artifactKey: Guid(de815c610e27f0e4b9268666d6442155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Wooden Spear.mat using Guid(de815c610e27f0e4b9268666d6442155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a30410b67aeee28ab37d4c48569870') in 0.261803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Building Plan.mat
+  artifactKey: Guid(45ad18dcc6ecee4418c7ae2d55e331f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Building Plan.mat using Guid(45ad18dcc6ecee4418c7ae2d55e331f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfb21f1351a5433919fffa154b4a557') in 0.570608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Axe.mat
+  artifactKey: Guid(3336d43058b91ea4aa0f2e2b1c27eb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Axe.mat using Guid(3336d43058b91ea4aa0f2e2b1c27eb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b10afba45708b7c6264f5590c6c591') in 0.559461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Wooden Bow.mat
+  artifactKey: Guid(268fb23e097dcdf41864edde6d409239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Wooden Bow.mat using Guid(268fb23e097dcdf41864edde6d409239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de0d9e316db43c1cf8cc31b31339e47') in 0.279966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Bone Club.mat
+  artifactKey: Guid(0c18cb354c2a2674bbb5e5ffae27a8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Bone Club.mat using Guid(0c18cb354c2a2674bbb5e5ffae27a8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9084ab874cdec78b2c9b0e82cd70cd') in 0.267744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Pickaxe.mat
+  artifactKey: Guid(2d3e4e5954f9bf04b98f3fc1c5a44e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Pickaxe.mat using Guid(2d3e4e5954f9bf04b98f3fc1c5a44e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09dd1f3f65b25cf2684dede97e6b4531') in 0.196717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.635448 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/New Material.mat
+  artifactKey: Guid(f2fef8828f6d56c45bf3cd96c3130845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/New Material.mat using Guid(f2fef8828f6d56c45bf3cd96c3130845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fe526f0998a5f7111f9c6c6811c8fd') in 0.313663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.226791 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Test Material.mat
+  artifactKey: Guid(f2fef8828f6d56c45bf3cd96c3130845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Test Material.mat using Guid(f2fef8828f6d56c45bf3cd96c3130845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2084f73706524ddc4d6bd0a7642c0f4f') in 0.019176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1636.314772 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Terrain/2D Grass.psd
+  artifactKey: Guid(0c456ba21764374419f19c05562e7d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Terrain/2D Grass.psd using Guid(0c456ba21764374419f19c05562e7d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ea1ad61b2135fbd2b4959a64a08ef0') in 4.914614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Models/Characters/Textures/Chicken.png
+  artifactKey: Guid(be9a02d659b53e74ebad1aca8ba1e10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Models/Characters/Textures/Chicken.png using Guid(be9a02d659b53e74ebad1aca8ba1e10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88736754604d584fa15311aa59228b2') in 1.101063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Axe.png
+  artifactKey: Guid(786e3387ac0e1f6469b647809ebe55f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Axe.png using Guid(786e3387ac0e1f6469b647809ebe55f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3aeea152947485c375326d9e784b8c7') in 0.790868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Arms_SPEC.png
+  artifactKey: Guid(858e8f9aad3d1d347babe4a54ece9d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Arms_SPEC.png using Guid(858e8f9aad3d1d347babe4a54ece9d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b13a3f4210150748dd5a4089c7bc318') in 2.007205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Assault Rifle_MET.png
+  artifactKey: Guid(2e66fc85b9ea4624fb33983da93ae9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Assault Rifle_MET.png using Guid(2e66fc85b9ea4624fb33983da93ae9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8258436ca1ac73b2984e00dacaed3652') in 2.842315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Effects/Temp/Particle Cloud White.png
+  artifactKey: Guid(04f2b59a8f0209c43b0d4ccf9e4df646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Effects/Temp/Particle Cloud White.png using Guid(04f2b59a8f0209c43b0d4ccf9e4df646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208af9d151d77f16503dcce6cea20ef5') in 2.323305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Building Plan_NRM.png
+  artifactKey: Guid(abd7c6739714a304cbba710011ba3f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Building Plan_NRM.png using Guid(abd7c6739714a304cbba710011ba3f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b15e797cc3df5e03503fd21d9596f2') in 2.428361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Hunting Rifle_SPEC.png
+  artifactKey: Guid(7b5c4411bdf9d884391a972bb2072bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Hunting Rifle_SPEC.png using Guid(7b5c4411bdf9d884391a972bb2072bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2967d1ef0fc99c36d08fec02af1da480') in 0.631698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/World/Iron Spear_Pickup.png
+  artifactKey: Guid(f8d151cfc2a315b4c80ac3300699e491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/World/Iron Spear_Pickup.png using Guid(f8d151cfc2a315b4c80ac3300699e491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7467eb969d346a05e43989947ad0f48') in 0.659372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/World/Hunting Rifle_Pickup.png
+  artifactKey: Guid(7d25d83b94762724ab14a883b1a84817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/World/Hunting Rifle_Pickup.png using Guid(7d25d83b94762724ab14a883b1a84817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a03ac784480bb99890e0e7b801a941') in 0.394108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Hunting Rifle.png
+  artifactKey: Guid(d6a20ab6b57edf949ad15a01e81c5319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Hunting Rifle.png using Guid(d6a20ab6b57edf949ad15a01e81c5319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d1c809db729b441301bb7065253fc0') in 2.773564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Terrain/Grass.png
+  artifactKey: Guid(02b7184f24e46bd4895c51edc5bbc543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Terrain/Grass.png using Guid(02b7184f24e46bd4895c51edc5bbc543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f35d8aafdd55c1e446e5e47dc225c9') in 0.558696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Terrain/Grass NRM.jpg
+  artifactKey: Guid(38bda9c2920adb44ca4f6d96ce474d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Terrain/Grass NRM.jpg using Guid(38bda9c2920adb44ca4f6d96ce474d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7cbd125178e046d86aa62ce0928cf8') in 0.568389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Rocks/Cliff_NRM.png
+  artifactKey: Guid(16a5103cddc299c498d745210ee874e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Rocks/Cliff_NRM.png using Guid(16a5103cddc299c498d745210ee874e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b302908998f9c5b401685cbae897b4f') in 3.188970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Pickaxe_SPEC.png
+  artifactKey: Guid(128712dd2397bba429f0dc6fcdb6ce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Pickaxe_SPEC.png using Guid(128712dd2397bba429f0dc6fcdb6ce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc30d561c59faad01be603aa8f6a574c') in 1.121367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Iron Spear.png
+  artifactKey: Guid(34b85df07d1c6a649937d10c8e5b1674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Iron Spear.png using Guid(34b85df07d1c6a649937d10c8e5b1674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057edd691f17eaadd1b19332f9f6a6c7') in 0.632638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Pickaxe.png
+  artifactKey: Guid(39ccd53fbd4921f4ab43567078e0485c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Pickaxe.png using Guid(39ccd53fbd4921f4ab43567078e0485c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74de944d1e3f1a7f3aba81e7d827a719') in 0.669900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Terrain/Trees/Tree_Textures/normal_specular.png
+  artifactKey: Guid(056afbf7f1886e64389e27293c6ff111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Terrain/Trees/Tree_Textures/normal_specular.png using Guid(056afbf7f1886e64389e27293c6ff111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486ab2cd517045cd03689fa3278db76f') in 0.462400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/World/Bone Club_Pickup.png
+  artifactKey: Guid(47aa20f086086c9499a9ea429223f5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/World/Bone Club_Pickup.png using Guid(47aa20f086086c9499a9ea429223f5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc92b57792a772d200abef99022fb88') in 1.883690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Effects/Muzzle Flash/Textures/Muzzle Flash.tga
+  artifactKey: Guid(b7968c56202e49f4495ecd9c0968ffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Effects/Muzzle Flash/Textures/Muzzle Flash.tga using Guid(b7968c56202e49f4495ecd9c0968ffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e573c881f27fdcdce23d5b246e0b7a5') in 0.391583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Iron Spear_NRM.png
+  artifactKey: Guid(55ae131810a6e17479120f3d94152224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Iron Spear_NRM.png using Guid(55ae131810a6e17479120f3d94152224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a76dba3e11806b98ba80320cf9c29a5') in 0.280664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Arms_NRM.png
+  artifactKey: Guid(c9f4b2be92483774cac87ee120b479b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Arms_NRM.png using Guid(c9f4b2be92483774cac87ee120b479b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1ac53cc777549df9a198395b68a914') in 0.862982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Building Plan_AO.png
+  artifactKey: Guid(1de527339e4bff449a6b8ba68d238310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Building Plan_AO.png using Guid(1de527339e4bff449a6b8ba68d238310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844fa4c449c0838b04104347acba90af') in 0.561631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Assault Rifle.png
+  artifactKey: Guid(fea1912f62790f142bc4b461edbce5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Assault Rifle.png using Guid(fea1912f62790f142bc4b461edbce5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b610a402c25dbd5e575fd2dfb898179') in 2.026411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Pickaxe_NRM.png
+  artifactKey: Guid(3ddd6261f1a7a1e4aa6e464d048a2b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Pickaxe_NRM.png using Guid(3ddd6261f1a7a1e4aa6e464d048a2b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e6b06cdc35420a0b0edb5162761c84') in 0.898496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.785920 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Prefabs/Objects/Destroyed Rock_Normal.prefab
+  artifactKey: Guid(12679ca07f698a749a005d7369b94922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Prefabs/Objects/Destroyed Rock_Normal.prefab using Guid(12679ca07f698a749a005d7369b94922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c63dd1f2f09ac708d7683396f866bb') in 2.605402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Rocks/Rock_Normal_NRM.png
+  artifactKey: Guid(d143559b8a8b2534098392b98179030f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Rocks/Rock_Normal_NRM.png using Guid(d143559b8a8b2534098392b98179030f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00a5d73a59bc555c4d98c025155f62d') in 0.149927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Models/Characters/Boar 02.fbx
+  artifactKey: Guid(8bc2c3925f946f74dbacc00b2cfdf7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Models/Characters/Boar 02.fbx using Guid(8bc2c3925f946f74dbacc00b2cfdf7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818eefe4f9a842230d0512c045be3f95') in 3.344306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.433530 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Models/Objects/Arrow.fbx
+  artifactKey: Guid(a2fa752869e8b16419ecb0957940c75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Models/Objects/Arrow.fbx using Guid(a2fa752869e8b16419ecb0957940c75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14bfc418e45faa9c7e1324f0b93f0f3') in 1.779147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Sounds/Boar/Boar Attack 2.wav
+  artifactKey: Guid(21970782e4c9cc848a7e779c1a65e26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Sounds/Boar/Boar Attack 2.wav using Guid(21970782e4c9cc848a7e779c1a65e26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dbd5d4ad2f4dfc3369ae9c54c4232b') in 1.691616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Sounds/Boar/Boar Attack 5.wav
+  artifactKey: Guid(c522eb4f6584ecf43945ac84a6e08986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Sounds/Boar/Boar Attack 5.wav using Guid(c522eb4f6584ecf43945ac84a6e08986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2ce09593bed84e4df5df9333363240') in 0.364015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Sounds/Boar/Boar Attack 4.wav
+  artifactKey: Guid(cf0d36d8619e3314b8f8dfd7c6d99f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Sounds/Boar/Boar Attack 4.wav using Guid(cf0d36d8619e3314b8f8dfd7c6d99f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ceda052087e9c9040cb1428ff8b3c2') in 0.332953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Sounds/Boar/Boar Attack 7.wav
+  artifactKey: Guid(c11abdea52bdb54479a8bf02fdfb0437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Sounds/Boar/Boar Attack 7.wav using Guid(c11abdea52bdb54479a8bf02fdfb0437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6628f03e36977f81600715d919e5c7a7') in 0.453372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.470582 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Terrain/Trees/Tree_Textures/Branch/Pine Branch 01 NRM.tga
+  artifactKey: Guid(32001fa0faf04c142b3dfd0cb37fe38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Terrain/Trees/Tree_Textures/Branch/Pine Branch 01 NRM.tga using Guid(32001fa0faf04c142b3dfd0cb37fe38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360b2612cdea2e85dce76c4bbf6a682c') in 1.260323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Stone Hatchet_AO.png
+  artifactKey: Guid(20b8a4a26e45881459ddaac04d7eb09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Stone Hatchet_AO.png using Guid(20b8a4a26e45881459ddaac04d7eb09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1461d0f045613f4246ff9d1699d6d6ee') in 0.443297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Stone Hatchet_MET.png
+  artifactKey: Guid(399bdbc83e208614c966b2073389d96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Stone Hatchet_MET.png using Guid(399bdbc83e208614c966b2073389d96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f55b76c42fd3d5884ddbf8adc662067') in 0.229822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Torch.png
+  artifactKey: Guid(7f9d1cf4903a83e4cb5ae6a4a705440f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Torch.png using Guid(7f9d1cf4903a83e4cb5ae6a4a705440f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11134480b076abf6d4f84dc3841efd71') in 0.466976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Terrain/Trees/Tree_Textures/shadow.png
+  artifactKey: Guid(4884c446344eaef4e98fd94c5f0e9522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Terrain/Trees/Tree_Textures/shadow.png using Guid(4884c446344eaef4e98fd94c5f0e9522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa66ade50110dfead6459674cf07feaa') in 0.242063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Shotgun_SPEC.png
+  artifactKey: Guid(5cc65ff98be63f343a2e43ab70ac8981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Shotgun_SPEC.png using Guid(5cc65ff98be63f343a2e43ab70ac8981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8cf9cc6800d97faf787b3f7ec56afa') in 0.408734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Stone Hatchet.png
+  artifactKey: Guid(6e749effae3ded04083969c859bcf30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Stone Hatchet.png using Guid(6e749effae3ded04083969c859bcf30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af0004b43c1bd6655b623b9790857f9') in 0.672061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Stone Hatchet_NRM.png
+  artifactKey: Guid(94fa823309508ad4eae495e9bf6d44c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Stone Hatchet_NRM.png using Guid(94fa823309508ad4eae495e9bf6d44c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2532a859c4367ae99582fc295b7625') in 0.545312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Effects/Sphere aShape.psd
+  artifactKey: Guid(553de24b3748be0429881fe090fe8444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Effects/Sphere aShape.psd using Guid(553de24b3748be0429881fe090fe8444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a821fba15ce412282252c05a2e1d991') in 2.748441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Shotgun_NRM.png
+  artifactKey: Guid(4a9a02d635cda624086b6d20755a4a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Shotgun_NRM.png using Guid(4a9a02d635cda624086b6d20755a4a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a407e83f8d8b3d95be36e3d36f0b98') in 0.873517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/UI/Stamina.png
+  artifactKey: Guid(00957245278553249ae0c4ff904d02e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/UI/Stamina.png using Guid(00957245278553249ae0c4ff904d02e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f803c00089917112413afc16c28691b6') in 0.051403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Terrain/Trees/Tree_Textures/Bark/Tree Bark 01.tga
+  artifactKey: Guid(6f024143d0aa8d54fa758b0f8df259eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Terrain/Trees/Tree_Textures/Bark/Tree Bark 01.tga using Guid(6f024143d0aa8d54fa758b0f8df259eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4c239462d3188b071c7102f773eb8d') in 0.294267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/World/Revolver_Pickup.png
+  artifactKey: Guid(0d5a1741f3dbf2f4886be0085e2c6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/World/Revolver_Pickup.png using Guid(0d5a1741f3dbf2f4886be0085e2c6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35349c8df5c4eecb1e77e49f32c74040') in 0.116394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Effects/Muzzle Flash/Textures/Smoke 02.tga
+  artifactKey: Guid(b8f96e8f167af344695860a41010bfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Effects/Muzzle Flash/Textures/Smoke 02.tga using Guid(b8f96e8f167af344695860a41010bfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a36e571ee58a6c66b20867d372df60') in 0.703645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Revolver_NRM.png
+  artifactKey: Guid(f5108311e61ccbf4692dffb4c2f5e2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Textures/Weapons/First Person/Revolver_NRM.png using Guid(f5108311e61ccbf4692dffb4c2f5e2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3d4f9171e344b61173ea6b7e64607a') in 0.289643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 661.837846 seconds.
+  path: Assets/Player.prefab
+  artifactKey: Guid(8c02accbf7fd6ff498eff2fb2aa319ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.prefab using Guid(8c02accbf7fd6ff498eff2fb2aa319ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80b3dc4712562a8020085db7d383b59') in 1.145763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.422842 seconds.
+  path: Assets/Player.prefab
+  artifactKey: Guid(8c02accbf7fd6ff498eff2fb2aa319ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.prefab using Guid(8c02accbf7fd6ff498eff2fb2aa319ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acca120dbf5f645cc878bd2572eb7ab7') in 0.031165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.979327 seconds.
+  path: Assets/Player.prefab
+  artifactKey: Guid(8c02accbf7fd6ff498eff2fb2aa319ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.prefab using Guid(8c02accbf7fd6ff498eff2fb2aa319ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4fa9c3984dcc4511f27d7488231a4c') in 0.124522 seconds 

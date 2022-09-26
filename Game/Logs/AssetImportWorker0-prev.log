@@ -15,7 +15,7 @@ C:/Users/AsusPC/Desktop/MyGames/Demo/WEB/3D/FPR-Survival-Game/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57321
+50454
 Successfully changed project path to: C:/Users/AsusPC/Desktop/MyGames/Demo/WEB/3D/FPR-Survival-Game/Game
 C:/Users/AsusPC/Desktop/MyGames/Demo/WEB/3D/FPR-Survival-Game/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/AsusPC/Desktop/MyGames/Demo/WEB/3D/FPR-Survival-Game/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 103.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 111.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,47 +63,210 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.092020 seconds.
+Registered in 0.016376 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 80.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 110.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.108 seconds
+- Completed reload, in  0.976 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2108ms)
-		BeginReloadAssembly (1344ms)
+	ReloadAssembly (977ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (556ms)
-			LoadAssemblies (1353ms)
+		EndReloadAssembly (684ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (134ms)
+			SetupTypeCache (160ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (328ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (404ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (82ms)
+				InitializePlatformSupportModulesInManaged (84ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (81ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (95ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007869 seconds.
-Android Extension - Scanning For ADB Devices 6664 ms
+Registered in 0.010970 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\AsusPC\Desktop\MyGames\Demo\WEB\3D\FPR-Survival-Game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\AsusPC\Desktop\MyGames\Demo\WEB\3D\FPR-Survival-Game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.851 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1853ms)
+		BeginReloadAssembly (377ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (182ms)
+		EndReloadAssembly (1294ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (554ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (55.5 KB). Loaded Objects now: 3859.
+Memory consumption went from 125.3 MB to 125.2 MB.
+Total: 4.935700 ms (FindLiveObjects: 0.424100 ms CreateObjectMapping: 0.275300 ms MarkObjects: 4.142400 ms  DeleteObjects: 0.092700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28414.268799 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74b9f0782f3ffe8a654b2b60a9f33c') in 0.248083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 382.172824 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person
+  artifactKey: Guid(7a9a88ed33319f94889ca2f371c356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person using Guid(7a9a88ed33319f94889ca2f371c356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9405b7d8a7764be01fa198a0ba25d81c') in 0.088504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.465788 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations
+  artifactKey: Guid(e640fcbe56768460c8022800642b7480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations using Guid(e640fcbe56768460c8022800642b7480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf99f288ea8865bd9fd65b4acc2e9c6') in 0.022872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082309 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations/Assault Rifle.fbx
+  artifactKey: Guid(48d42201fa1ddd74b8df820204882ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations/Assault Rifle.fbx using Guid(48d42201fa1ddd74b8df820204882ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7366145fc74a5c7fcb24d438c143bde7') in 1.397845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations/Stone Hatchet.fbx
+  artifactKey: Guid(77489154fe6edec468aaa5a234832637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations/Stone Hatchet.fbx using Guid(77489154fe6edec468aaa5a234832637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec171272c561375356a05ec14433713d') in 0.161041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations/Building Plan.fbx
+  artifactKey: Guid(f81d2cc70430a8547bc1c21978a42734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations/Building Plan.fbx using Guid(f81d2cc70430a8547bc1c21978a42734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5febfee42175602ed7275293f4804895') in 0.185561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations/Iron Spear.fbx
+  artifactKey: Guid(2b811d29082948e45b9ecfd1645a6ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations/Iron Spear.fbx using Guid(2b811d29082948e45b9ecfd1645a6ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77f1ff69c7665a19efc43ca1097e53b') in 0.287104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations/Revolver.fbx
+  artifactKey: Guid(2bd6bf150a6e08645964bd2baf2a789b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations/Revolver.fbx using Guid(2bd6bf150a6e08645964bd2baf2a789b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42e4158da8d62d521ae24503b8ad112') in 0.159920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations/Hunting Rifle.fbx
+  artifactKey: Guid(4e4397155881b1b43b85d583117147cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations/Hunting Rifle.fbx using Guid(4e4397155881b1b43b85d583117147cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26a4e50f22268516dc1dedc639ec4cd') in 0.287886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations/Wooden Spear.fbx
+  artifactKey: Guid(f01a880f7473c2546b3ff80815537299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Models/First Person/All Animations/Wooden Spear.fbx using Guid(f01a880f7473c2546b3ff80815537299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91026fe257d9526678f960110a2a2cf') in 0.146871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 169.534208 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GrassGrass NRM3d1cca0d6d0e9938.terrainlayer
+  artifactKey: Guid(1f6b988ab041bf542bd13a5143407d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GrassGrass NRM3d1cca0d6d0e9938.terrainlayer using Guid(1f6b988ab041bf542bd13a5143407d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5de710c69a27e8dab298c53a2d4066') in 0.144127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.726546 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Assault Rifle.mat
+  artifactKey: Guid(bf343de3af9f4274a8d78d9dee5b0908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Assault Rifle.mat using Guid(bf343de3af9f4274a8d78d9dee5b0908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fc024db10105054c295ee43ea67c92') in 1.430385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Stone Hatchet.mat
+  artifactKey: Guid(b5361b3fa7e3b094da34d712db9da7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Stone Hatchet.mat using Guid(b5361b3fa7e3b094da34d712db9da7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2d96680725f4a9b4d281c12369dbe3') in 0.760525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Revolver.mat
+  artifactKey: Guid(0c4bc943ef0b9cb4480b9af834e2ce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Revolver.mat using Guid(0c4bc943ef0b9cb4480b9af834e2ce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08e283705ec75aaadecb6478b89f3f3') in 0.318457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Torch.mat
+  artifactKey: Guid(5bdaa2c979f5bf34a8d3425534846b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Torch.mat using Guid(5bdaa2c979f5bf34a8d3425534846b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aedb333aee799fe37ecd45c6b5a27c6') in 0.230532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Shotgun.mat
+  artifactKey: Guid(626b338dd308a9d478ff8780feca87c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Shotgun.mat using Guid(626b338dd308a9d478ff8780feca87c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0426388edb566f819c365b2fa004058b') in 0.635226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Iron Spear.mat
+  artifactKey: Guid(f0a88953b3d9b654fbaf89f1c173bbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS-Survival-Assets/FPS Survival Assets/Materials/Weapons/First Person/Iron Spear.mat using Guid(f0a88953b3d9b654fbaf89f1c173bbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa8f083d045569d1c8c524b4f80796d') in 0.311623 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
