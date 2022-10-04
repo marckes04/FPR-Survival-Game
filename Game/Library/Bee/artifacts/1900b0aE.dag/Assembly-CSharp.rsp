@@ -356,6 +356,7 @@
 "Assets/FPS-Survival-Assets/FPS Survival Assets/Scripts/Player/PlayerFootSteps.cs"
 "Assets/FPS-Survival-Assets/FPS Survival Assets/Scripts/Player/PlayerMovement.cs"
 "Assets/FPS-Survival-Assets/FPS Survival Assets/Scripts/Player/PlayerSprintAndCrouch.cs"
+"Assets/FPS-Survival-Assets/FPS Survival Assets/Scripts/Weapons/WeaponHandler.cs"
 -langversion:9.0
 
 /deterministic

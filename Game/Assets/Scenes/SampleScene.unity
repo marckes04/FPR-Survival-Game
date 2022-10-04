@@ -281,6 +281,62 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7971385537922776, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+      propertyPath: weapon_Aim
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7971385537922776, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+      propertyPath: bullet_type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224500635201356240, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+      propertyPath: weapon_Aim
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224500635201356240, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+      propertyPath: bullet_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465432209726962496, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 5606124787885379462}
+    - target: {fileID: 1465432209726962496, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+      propertyPath: weapon_Aim
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254113265151892134, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 5606124787885379461}
+    - target: {fileID: 4254113265151892134, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+      propertyPath: weapon_Aim
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254113265151892134, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+      propertyPath: reload_Sound
+      value: 
+      objectReference: {fileID: 5606124787885379460}
+    - target: {fileID: 4917315785940756963, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+      propertyPath: weapon_Aim
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917315785940756963, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+      propertyPath: bullet_type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557626614119872029, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+      propertyPath: fire_type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557626614119872029, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 5606124787885379459}
+    - target: {fileID: 5557626614119872029, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+      propertyPath: weapon_Aim
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5606124786870629244, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
       propertyPath: m_Name
       value: Player
@@ -331,3 +387,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+--- !u!82 &5606124787885379459 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2913551616688058255, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+  m_PrefabInstance: {fileID: 5606124787885379458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &5606124787885379460 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5425008307277487840, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+  m_PrefabInstance: {fileID: 5606124787885379458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &5606124787885379461 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2645860985340291489, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+  m_PrefabInstance: {fileID: 5606124787885379458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &5606124787885379462 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8522038870498868959, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
+  m_PrefabInstance: {fileID: 5606124787885379458}
+  m_PrefabAsset: {fileID: 0}
