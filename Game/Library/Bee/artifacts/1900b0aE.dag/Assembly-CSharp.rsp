@@ -351,6 +351,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/FPS-Survival-Assets/FPS Survival Assets/Scripts/Enemy/EnemyAnimator.cs"
 "Assets/FPS-Survival-Assets/FPS Survival Assets/Scripts/Helper/TagHolder.cs"
 "Assets/FPS-Survival-Assets/FPS Survival Assets/Scripts/Player/MouseLook.cs"
 "Assets/FPS-Survival-Assets/FPS Survival Assets/Scripts/Player/PlayerAttack.cs"
