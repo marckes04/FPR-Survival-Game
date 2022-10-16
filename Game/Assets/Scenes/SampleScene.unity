@@ -518,23 +518,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1aa7bf25b446c4baa8e0af352f470d1b, type: 3}
---- !u!1 &3376723588226210374 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8646757008200099916, guid: 2764f4eae4d1af241bfc947c8cf17130, type: 3}
-  m_PrefabInstance: {fileID: 6423254131330593290}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3376723588226210380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3376723588226210374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9505b4e4759de924ead68d05c6804f92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &5606124787885379458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -542,10 +525,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 297535876, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
-      propertyPath: spear_Prefab
-      value: 
-      objectReference: {fileID: 5290826731495723384, guid: 511081ad8b1d3444cbc92cac1909fd65, type: 3}
     - target: {fileID: 5606124786870629244, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
       propertyPath: m_Name
       value: Player
@@ -594,10 +573,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5606124788415902880, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7abb94b613c41734e9edf0c640f62a15, type: 3}
 --- !u!1001 &6423254131330593290
@@ -611,6 +586,14 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5677604721951944663, guid: 2764f4eae4d1af241bfc947c8cf17130, type: 3}
+      propertyPath: chase_Distance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677604721951944663, guid: 2764f4eae4d1af241bfc947c8cf17130, type: 3}
+      propertyPath: attack_Distance
+      value: 2.2
+      objectReference: {fileID: 0}
     - target: {fileID: 8646757008200099916, guid: 2764f4eae4d1af241bfc947c8cf17130, type: 3}
       propertyPath: m_Name
       value: Cannibal
@@ -621,15 +604,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8646757008200266860, guid: 2764f4eae4d1af241bfc947c8cf17130, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 45
+      value: 33.62
       objectReference: {fileID: 0}
     - target: {fileID: 8646757008200266860, guid: 2764f4eae4d1af241bfc947c8cf17130, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 22.165
+      value: 20.8
       objectReference: {fileID: 0}
     - target: {fileID: 8646757008200266860, guid: 2764f4eae4d1af241bfc947c8cf17130, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 113.27
+      value: 97.01
       objectReference: {fileID: 0}
     - target: {fileID: 8646757008200266860, guid: 2764f4eae4d1af241bfc947c8cf17130, type: 3}
       propertyPath: m_LocalRotation.w
