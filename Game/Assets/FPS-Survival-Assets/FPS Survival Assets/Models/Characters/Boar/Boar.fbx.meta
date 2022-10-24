@@ -1,113 +1,278 @@
 fileFormatVersion: 2
 guid: 1b38d20d3f0172743b5f14e4835aa86a
-timeCreated: 1484127615
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Armature
-    100002: Back_Foot_IK_L
-    100004: Back_Foot_IK_R
-    100006: Back_Foot_L
-    100008: Back_Foot_Pole_L
-    100010: Back_Foot_Pole_R
-    100012: Back_Foot_R
-    100014: Back_Shin_L
-    100016: Back_Shin_R
-    100018: Back_Thigh_L
-    100020: Back_Thigh_R
-    100022: //RootNode
-    100024: Boar
-    100026: Chest
-    100028: Front_Foot_IK_L
-    100030: Front_Foot_IK_R
-    100032: Front_Foot_L
-    100034: Front_Foot_Pole_L
-    100036: Front_Foot_Pole_R
-    100038: Front_Foot_R
-    100040: Front_Shin_L
-    100042: Front_Shin_R
-    100044: Front_Thigh_L
-    100046: Front_Thigh_R
-    100048: Head
-    100050: Hips
-    100052: Middle_Spine
-    100054: Mouth
-    100056: Snout
-    100058: Tail_01
-    100060: Tail_02
-    100062: Tail_03
-    100064: Tail_IK
-    400000: Armature
-    400002: Back_Foot_IK_L
-    400004: Back_Foot_IK_R
-    400006: Back_Foot_L
-    400008: Back_Foot_Pole_L
-    400010: Back_Foot_Pole_R
-    400012: Back_Foot_R
-    400014: Back_Shin_L
-    400016: Back_Shin_R
-    400018: Back_Thigh_L
-    400020: Back_Thigh_R
-    400022: //RootNode
-    400024: Boar
-    400026: Chest
-    400028: Front_Foot_IK_L
-    400030: Front_Foot_IK_R
-    400032: Front_Foot_L
-    400034: Front_Foot_Pole_L
-    400036: Front_Foot_Pole_R
-    400038: Front_Foot_R
-    400040: Front_Shin_L
-    400042: Front_Shin_R
-    400044: Front_Thigh_L
-    400046: Front_Thigh_R
-    400048: Head
-    400050: Hips
-    400052: Middle_Spine
-    400054: Mouth
-    400056: Snout
-    400058: Tail_01
-    400060: Tail_02
-    400062: Tail_03
-    400064: Tail_IK
-    4300000: Boar
-    7400000: Attack_
-    7400002: Eating
-    7400004: Get_Down
-    7400006: Idle
-    7400008: Walk
-    7400010: Death
-    7400012: Get_Hit
-    7400014: Get_Hit_Normal
-    7400016: Get_Hit_Hard
-    7400018: Run
-    9500000: //RootNode
-    13700000: Boar
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Armature
+  - first:
+      1: 100002
+    second: Back_Foot_IK_L
+  - first:
+      1: 100004
+    second: Back_Foot_IK_R
+  - first:
+      1: 100006
+    second: Back_Foot_L
+  - first:
+      1: 100008
+    second: Back_Foot_Pole_L
+  - first:
+      1: 100010
+    second: Back_Foot_Pole_R
+  - first:
+      1: 100012
+    second: Back_Foot_R
+  - first:
+      1: 100014
+    second: Back_Shin_L
+  - first:
+      1: 100016
+    second: Back_Shin_R
+  - first:
+      1: 100018
+    second: Back_Thigh_L
+  - first:
+      1: 100020
+    second: Back_Thigh_R
+  - first:
+      1: 100022
+    second: //RootNode
+  - first:
+      1: 100024
+    second: Boar
+  - first:
+      1: 100026
+    second: Chest
+  - first:
+      1: 100028
+    second: Front_Foot_IK_L
+  - first:
+      1: 100030
+    second: Front_Foot_IK_R
+  - first:
+      1: 100032
+    second: Front_Foot_L
+  - first:
+      1: 100034
+    second: Front_Foot_Pole_L
+  - first:
+      1: 100036
+    second: Front_Foot_Pole_R
+  - first:
+      1: 100038
+    second: Front_Foot_R
+  - first:
+      1: 100040
+    second: Front_Shin_L
+  - first:
+      1: 100042
+    second: Front_Shin_R
+  - first:
+      1: 100044
+    second: Front_Thigh_L
+  - first:
+      1: 100046
+    second: Front_Thigh_R
+  - first:
+      1: 100048
+    second: Head
+  - first:
+      1: 100050
+    second: Hips
+  - first:
+      1: 100052
+    second: Middle_Spine
+  - first:
+      1: 100054
+    second: Mouth
+  - first:
+      1: 100056
+    second: Snout
+  - first:
+      1: 100058
+    second: Tail_01
+  - first:
+      1: 100060
+    second: Tail_02
+  - first:
+      1: 100062
+    second: Tail_03
+  - first:
+      1: 100064
+    second: Tail_IK
+  - first:
+      4: 400000
+    second: Armature
+  - first:
+      4: 400002
+    second: Back_Foot_IK_L
+  - first:
+      4: 400004
+    second: Back_Foot_IK_R
+  - first:
+      4: 400006
+    second: Back_Foot_L
+  - first:
+      4: 400008
+    second: Back_Foot_Pole_L
+  - first:
+      4: 400010
+    second: Back_Foot_Pole_R
+  - first:
+      4: 400012
+    second: Back_Foot_R
+  - first:
+      4: 400014
+    second: Back_Shin_L
+  - first:
+      4: 400016
+    second: Back_Shin_R
+  - first:
+      4: 400018
+    second: Back_Thigh_L
+  - first:
+      4: 400020
+    second: Back_Thigh_R
+  - first:
+      4: 400022
+    second: //RootNode
+  - first:
+      4: 400024
+    second: Boar
+  - first:
+      4: 400026
+    second: Chest
+  - first:
+      4: 400028
+    second: Front_Foot_IK_L
+  - first:
+      4: 400030
+    second: Front_Foot_IK_R
+  - first:
+      4: 400032
+    second: Front_Foot_L
+  - first:
+      4: 400034
+    second: Front_Foot_Pole_L
+  - first:
+      4: 400036
+    second: Front_Foot_Pole_R
+  - first:
+      4: 400038
+    second: Front_Foot_R
+  - first:
+      4: 400040
+    second: Front_Shin_L
+  - first:
+      4: 400042
+    second: Front_Shin_R
+  - first:
+      4: 400044
+    second: Front_Thigh_L
+  - first:
+      4: 400046
+    second: Front_Thigh_R
+  - first:
+      4: 400048
+    second: Head
+  - first:
+      4: 400050
+    second: Hips
+  - first:
+      4: 400052
+    second: Middle_Spine
+  - first:
+      4: 400054
+    second: Mouth
+  - first:
+      4: 400056
+    second: Snout
+  - first:
+      4: 400058
+    second: Tail_01
+  - first:
+      4: 400060
+    second: Tail_02
+  - first:
+      4: 400062
+    second: Tail_03
+  - first:
+      4: 400064
+    second: Tail_IK
+  - first:
+      43: 4300000
+    second: Boar
+  - first:
+      74: 7400000
+    second: Attack_
+  - first:
+      74: 7400002
+    second: Eating
+  - first:
+      74: 7400004
+    second: Get_Down
+  - first:
+      74: 7400006
+    second: Idle
+  - first:
+      74: 7400008
+    second: Walk
+  - first:
+      74: 7400010
+    second: Death
+  - first:
+      74: 7400012
+    second: Get_Hit
+  - first:
+      74: 7400014
+    second: Get_Hit_Normal
+  - first:
+      74: 7400016
+    second: Get_Hit_Hard
+  - first:
+      74: 7400018
+    second: Run
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Boar
+  externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: Attack_
       takeName: Attack_
+      internalID: 0
       firstFrame: -1
       lastFrame: 41
       wrapMode: 0
@@ -209,6 +374,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Eating
       takeName: Eating
+      internalID: 0
       firstFrame: -1
       lastFrame: 73
       wrapMode: 0
@@ -303,6 +469,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Get_Hit_Normal
       takeName: Get_Hit_Normal
+      internalID: 0
       firstFrame: 0
       lastFrame: 16
       wrapMode: 0
@@ -397,6 +564,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: Idle
+      internalID: 0
       firstFrame: -1
       lastFrame: 124
       wrapMode: 0
@@ -491,6 +659,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: Walk
+      internalID: 0
       firstFrame: 0
       lastFrame: 30
       wrapMode: 0
@@ -585,6 +754,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Death
       takeName: Death
+      internalID: 0
       firstFrame: -1
       lastFrame: 35
       wrapMode: 0
@@ -679,6 +849,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Get_Hit_Hard
       takeName: Get_Hit_Hard
+      internalID: 0
       firstFrame: 0
       lastFrame: 16
       wrapMode: 0
@@ -773,6 +944,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Run
       takeName: Run
+      internalID: 0
       firstFrame: 0
       lastFrame: 99
       wrapMode: 0
@@ -870,26 +1042,47 @@ ModelImporter:
     globalScale: 30
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -899,14 +1092,18 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 30
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

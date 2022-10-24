@@ -354,6 +354,7 @@
 "Assets/FPS-Survival-Assets/FPS Survival Assets/Scripts/Enemy/EnemyAnimator.cs"
 "Assets/FPS-Survival-Assets/FPS Survival Assets/Scripts/Enemy/EnemyController.cs"
 "Assets/FPS-Survival-Assets/FPS Survival Assets/Scripts/Helper/TagHolder.cs"
+"Assets/FPS-Survival-Assets/FPS Survival Assets/Scripts/Player/Attack.cs"
 "Assets/FPS-Survival-Assets/FPS Survival Assets/Scripts/Player/MouseLook.cs"
 "Assets/FPS-Survival-Assets/FPS Survival Assets/Scripts/Player/PlayerAttack.cs"
 "Assets/FPS-Survival-Assets/FPS Survival Assets/Scripts/Player/PlayerFootSteps.cs"
