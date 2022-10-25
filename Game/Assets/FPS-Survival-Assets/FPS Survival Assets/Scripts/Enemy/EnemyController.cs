@@ -39,12 +39,15 @@ public class EnemyController : MonoBehaviour
 
     public GameObject attack_Point;
 
+    private EnemyAudio enemy_Audio;
+
     void Awake()
     {
         enemy_Anim = GetComponent<EnemyAnimator>();
         navAgent = GetComponent<NavMeshAgent>();
 
         target = GameObject.FindWithTag(Tags.PLAYER_TAG).transform;
+        enemy_Audio = GetComponentInChildren<EnemyAudio>();
 
     }
 
@@ -116,6 +119,7 @@ public class EnemyController : MonoBehaviour
             enemy_State = EnemyState.CHASE;
 
             //Play spotted audio
+            enemy_Audio.Play_ScreamSound();
         }
 
     }//Patrol
@@ -189,6 +193,7 @@ public class EnemyController : MonoBehaviour
             Attack_Timmer = 0f;
 
             // Play Attack sound
+            enemy_Audio.Play_AttackSound();
         }
 
         if(Vector3.Distance(transform.position, target.position) > attack_Distance + chase_After_Attack_Distance)
@@ -223,6 +228,11 @@ public class EnemyController : MonoBehaviour
         {
             attack_Point.SetActive(false);
         }
+    }
+
+    public EnemyState Enemy_State
+    {
+        get; set;
     }
 
 }

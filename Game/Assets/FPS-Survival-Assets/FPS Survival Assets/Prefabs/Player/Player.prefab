@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2f27cbe3482144ebe7170fdf610134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
+  damage: 25
   radius: 1
   layerMask:
     serializedVersion: 2
@@ -212,6 +212,7 @@ GameObject:
   - component: {fileID: 5606124787885379463}
   - component: {fileID: 1144779158709490360}
   - component: {fileID: 297535876}
+  - component: {fileID: 6728232552214978976}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -316,10 +317,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireRate: 15
-  damage: 0
+  damage: 50
   arrow_Prefab: {fileID: 6987900440372628934, guid: 1e49821495040c24fbd39cf7763e96cd, type: 3}
   spear_Prefab: {fileID: 5290826731495723384, guid: 511081ad8b1d3444cbc92cac1909fd65, type: 3}
   arrow_Bow_StartPosition: {fileID: 1927221675455142828}
+--- !u!114 &6728232552214978976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5606124786870629244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02a77109d993e554085674f635fce880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  is_Player: 1
+  is_Boar: 0
+  is_Cannibal: 0
 --- !u!1 &5606124787131025261
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,8 +634,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7731162867600035348}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.525, z: 0.898}
+  m_LocalRotation: {x: -0.013690482, y: 0.03812266, z: -0.00052234635, w: 0.9991792}
+  m_LocalPosition: {x: 0.068425, y: 1.51956, z: 0.92710876}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

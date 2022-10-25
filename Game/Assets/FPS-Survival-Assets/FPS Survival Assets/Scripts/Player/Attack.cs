@@ -15,7 +15,7 @@ public class Attack : MonoBehaviour
 
         if(hits.Length > 0)
         {
-            print("We touched: " + hits[0].gameObject.tag);
+            hits[0].gameObject.GetComponent<Health>().ApplyDamage(damage);
 
             gameObject.SetActive(false);
         }
