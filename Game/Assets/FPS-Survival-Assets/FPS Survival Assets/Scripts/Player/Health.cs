@@ -16,7 +16,11 @@ public class Health : MonoBehaviour
     private bool is_Dead;
 
     private EnemyAudio enemyAudio;
+
+    private PlayerStats player_stats;
    
+
+
     void Awake()
     {
         if(is_Boar || is_Cannibal)
@@ -30,7 +34,7 @@ public class Health : MonoBehaviour
         }
         if (is_Player)
         {
-
+            player_stats = GetComponent<PlayerStats>();
         }
     }
 
@@ -44,6 +48,7 @@ public class Health : MonoBehaviour
         if (is_Player)
         {
             //Show the stats(Display the UI value)
+            player_stats.Display_HealthStats(health);
         }
           if (is_Boar ||  is_Cannibal)
         {

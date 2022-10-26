@@ -28,12 +28,20 @@ public class PlayerSprintAndCrouch : MonoBehaviour
     private float crouch_Step_Distance = 0.5f;
 
 
+    private PlayerStats player_stats;
+
+    private float sprint_value = 100f;
+    public float sprint_Threshold = 10f;
+
+
+
 
     void Awake()
     {
         playerMovement = GetComponent<PlayerMovement>();
         look_Root = transform.GetChild(0);
         player_Footsteps = GetComponentInChildren<PlayerFootSteps>();
+        player_stats = GetComponentInChildren<PlayerStats>();
     }
 
     void Start()
@@ -53,15 +61,19 @@ public class PlayerSprintAndCrouch : MonoBehaviour
 
     void Sprint()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && !isCrouching)
+        //if we have stamina, we can sprint
+        if (sprint_value > 0f)
         {
-            playerMovement.speed = sprint_Speed;
+            if (Input.GetKeyDown(KeyCode.LeftShift) && !isCrouching)
+            {
+                playerMovement.speed = sprint_Speed;
 
-            player_Footsteps.step_Distance = sprint_Step_Distance;
-            player_Footsteps.volume_Min = sprint_Volume;
-            player_Footsteps.volume_Max= sprint_Volume;
+                player_Footsteps.step_Distance = sprint_Step_Distance;
+                player_Footsteps.volume_Min = sprint_Volume;
+                player_Footsteps.volume_Max = sprint_Volume;
+
+            }
         }
-
         if(Input.GetKeyUp(KeyCode.LeftShift) && !isCrouching)
         {
             playerMovement.speed = move_Speed;
@@ -69,7 +81,39 @@ public class PlayerSprintAndCrouch : MonoBehaviour
             player_Footsteps.step_Distance = walk_Step_Distance;
             player_Footsteps.volume_Min = walk_Volume_Min;
             player_Footsteps.volume_Max = walk_Volume_Max;
-            
+        }
+
+        if (Input.GetKey(KeyCode.LeftShift) && !isCrouching)
+        {
+            sprint_value -= sprint_Threshold * Time.deltaTime;
+
+            if(sprint_Volume <= 0f)
+            {
+                sprint_Volume = 0f;
+                //Reset speed and sound
+
+                playerMovement.speed = move_Speed;
+                
+                player_Footsteps.step_Distance = walk_Step_Distance;
+                player_Footsteps.volume_Min = walk_Volume_Min;
+                player_Footsteps.volume_Max = walk_Volume_Max;
+            }
+
+            player_stats.Display_StaminaStats(sprint_value);
+        }
+        else
+        {
+            if(sprint_value != 100f)
+            {
+                sprint_value += (sprint_Threshold /2f)* Time.deltaTime;
+
+                player_stats.Display_StaminaStats(sprint_value);
+
+                if(sprint_value > 100f)
+                {
+                    sprint_value = 100f;
+                }
+            }
         }
     }
 
