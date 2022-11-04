@@ -81,6 +81,8 @@ public class Health : MonoBehaviour
             //StartCoroutine
 
             //EnemyManager spawn more enemies
+
+            EnemyManager.instance.EnemyDied(true);
         }
 
         if (is_Boar)
@@ -91,6 +93,7 @@ public class Health : MonoBehaviour
 
             enemy_Anim.Dead();
             StartCoroutine(DeadSound());
+            EnemyManager.instance.EnemyDied(false);
         }
 
         if (is_Player)
@@ -103,7 +106,7 @@ public class Health : MonoBehaviour
             }
 
             // call enemy manager to stop spawning enemies
-
+            EnemyManager.instance.StopSpawning();
             GetComponent<PlayerMovement>().enabled = false;
             GetComponent<PlayerAttack>().enabled = false;
             GetComponent<WeaponManager>().GetCurrentSelectedWeapon().gameObject.SetActive(false);
